@@ -1,0 +1,17 @@
+#include<stddef.h>
+#include<stdlib.h>
+
+char *find_needle(const char **haystack, size_t count){
+  int i;
+  int needle=0;
+  char msg1[]="found the needle at position ";
+  char msg2[50];
+
+  for(i=0; i<count; i++)
+    if(haystack[i]=="needle")
+      needle=i;
+
+  sprintf(msg2,"%s%d", msg1, needle);
+
+  return msg2;
+}
