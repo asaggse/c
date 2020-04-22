@@ -1,4 +1,4 @@
-//Write a recursive function in C to print all natural numbers from 1 to 50
+//A recursive function in C that prints all natural numbers from 1 to 50
 
 #include <stdio.h>
 #include <stdlib.h>
